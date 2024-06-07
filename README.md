@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+## Configuration
+
+This project comes pre-configured with the following:
+
+FontAwesome: For adding scalable vector icons that can be customized with CSS.
+TailwindCSS: A utility-first CSS framework for rapidly building custom designs.
+DaisyUI: A plugin for TailwindCSS that provides a set of beautiful and customizable UI components.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
