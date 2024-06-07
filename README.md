@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project comes pre-configured with the following:
 
-FontAwesome: For adding scalable vector icons that can be customized with CSS.
-TailwindCSS: A utility-first CSS framework for rapidly building custom designs.
-DaisyUI: A plugin for TailwindCSS that provides a set of beautiful and customizable UI components.
+1. FontAwesome: For adding scalable vector icons that can be customized with CSS.
+2. TailwindCSS: A utility-first CSS framework for rapidly building custom designs.
+3. DaisyUI: A plugin for TailwindCSS that provides a set of beautiful and customizable UI components.
 
 ## Development server
 
