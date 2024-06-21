@@ -11,23 +11,23 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-  ratings: any[] = [];
+  // ratings: any[] = [];
 
-  constructor(private http: HttpClient) {}
+  // constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.fetchBanners();
+    //   this.fetchBanners();
   }
 
-  fetchBanners(): void {
-    this.http.get<any[]>('http://127.0.0.1:8000/api/').subscribe(
-      (data) => {
-        this.ratings = data;
-        console.log('Results:', this.ratings);
-      },
-      (error) => {
-        console.error('Error fetching results', error);
-      }
-    );
-  }
+  // fetchBanners(): void {
+  //   this.http.get<any[]>('http://127.0.0.1:8000/api/').subscribe(
+  //     (data) => {
+  //       this.ratings = data;
+  //       console.log('Results:', this.ratings);
+  //     },
+  //     (error) => {
+  //       console.error('Error fetching results', error);
+  //     }
+  //   );
+  // }
 }
